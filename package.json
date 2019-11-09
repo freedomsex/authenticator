@@ -1,0 +1,41 @@
+{
+  "name": "@freedomsex/authenticator",
+  "version": "0.0.1",
+  "description": "JWT refresh poll authenticator with timer indicator",
+  "scripts": {
+    "test": "jest || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freedomsex/authenticator.git"
+  },
+  "keywords": [
+    "jwt",
+    "authenticator",
+    "poll",
+    "timer"
+  ],
+  "author": "tebaly",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/freedomsex/authenticator/issues"
+  },
+  "homepage": "https://github.com/freedomsex/authenticator#readme",
+  "dependencies": {
+    "expires-unixtime": "^0.4.1",
+    "human-readable-numbers": "^0.9.5"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.2.1",
+    "jwt-simple": "^0.5.6",
+    "nanoid": "^2.1.6",
+    "regenerator-runtime": "^0.11.1",
+    "unix-timestamp-offset": "^1.3.2",
+    "vue": "^2.6.10",
+    "vue-jest": "^3.0.5",
+    "vue-template-compiler": "^2.4.4"
+  }
+}
