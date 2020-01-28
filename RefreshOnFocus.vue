@@ -1,10 +1,15 @@
 <script>
 export default {
+  methods: {
+    refresh() {
+      this.$emit('refresh');
+    },
+  },
   created() {
-    global.addEventListener('focus', this.$emit('refresh'));
+    window.addEventListener('focus', this.refresh);
   },
   destroyed() {
-    global.removeEventListener('focus', this.$emit('refresh'));
+    window.removeEventListener('focus', this.refresh);
   },
 }
 </script>
